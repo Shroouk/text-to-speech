@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "IntroRust";
+  src: local("IntroRust"),
+   url("./Fonts/Intro-Rust-G-Base-2-Line.otf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Schoolbell";
+    src: local("Schoolbell"),
+     url("./Fonts/Schoolbell-Regular.ttf") format("truetype");
+  
+    }
+
+
+
+body {
+  margin: 0;
+  font-family:  "Schoolbell" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+
+}
+
+.heading-font{
+  font-family: "IntroRust";
+ 
+}
+.heading-font h2{
+  font-size: 3.75rem !important;
+}
+.heading-font h3{
+  font-size: 3rem !important;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+.App{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: -webkit-center;
+}
+.heding-font{
+font-family: 'Cabin Sketch', cursive;
+}
+.img-book{
+  width: 80%;
+    height: 35px;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+.main-row{
+  align-items: center;
+  width: 900px;
+  height: 700px;
+  
+background-image: url('/public/assets/background.png');
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.card-wrapper{
+  border-radius: 60px;
+  background: #fff;
+  width: 80%;
+  margin: 5px auto;
+  
+}
+.txt-container{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 340px;
+    padding-bottom: 20px
+}
+@media (max-width: 767px) {
+  .txt-container{
+    max-height: fit-content;
+    align-content: center;
+  }
+}
